@@ -5,6 +5,7 @@ using namespace std;
 void readFile(string s, int graph[15][15], int &n);
 void showPath(vector<int> path, int n);
 void showMatrix(int graph[15][15], int n);
+
 int costCalculate(int graph[15][15], vector<int> path, int n)
 {
     int cost = 0;
